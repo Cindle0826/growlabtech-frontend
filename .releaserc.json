@@ -1,0 +1,16 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/git"
+  ],
+  "releaseRules": [
+    { "type": "feat", "release": "minor" },
+    { "type": "fix", "release": "patch" },
+    { "type": "docs", "release": "patch" },
+    { "type": "refactor", "release": "patch" }
+  ]
+}
