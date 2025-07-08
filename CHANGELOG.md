@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.0.0...v1.0.1) (2025-07-08)
+
+
+### Bug Fixes
+
+* semantic-setting ([8f152e4](https://github.com/Cindle0826/growlabtech-frontend/commit/8f152e44db49af90b5c033c789dacf6edfcf7250))
+
 # 1.0.0 (2025-07-08)
 
 
