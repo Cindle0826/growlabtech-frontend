@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.0.1...v1.1.0) (2025-07-09)
+
+
+### Features
+
+* add .releaserc type ([54c9a23](https://github.com/Cindle0826/growlabtech-frontend/commit/54c9a23b85793fc11dac4eb6c9bdbfe6c2d1bb10))
+
 ## [1.0.1](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.0.0...v1.0.1) (2025-07-08)
 
 
