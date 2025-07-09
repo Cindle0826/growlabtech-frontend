@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.1.1...v1.1.2) (2025-07-09)
+
+
+### Bug Fixes
+
+* delete space ([9834756](https://github.com/Cindle0826/growlabtech-frontend/commit/98347567fb335f8196c887201c496b4c0584e110))
+
 ## [1.1.1](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.1.0...v1.1.1) (2025-07-09)
 
 
