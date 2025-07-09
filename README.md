@@ -78,6 +78,6 @@ docs: xxx
 ```txt
 feat!: 新增不向後兼容的API
 
-BREAKING CHANGE: 舊版API將不再支援
+BREAKING CHANGE: 舊版API將不再支援 
 
 ```
