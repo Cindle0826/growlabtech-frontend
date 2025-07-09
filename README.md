@@ -1,74 +1,83 @@
-# Startup - Free Next.js Startup Website Template
+# Introduce
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+This project is a website frontend
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## Website Template Reference: [🚀 View Free Demo](https://startup.nextjstemplates.com/) && [Github](https://github.com/NextJSTemplates/startup-nextjs)
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+## Prerequisites
 
-### 🙌 Detailed comparison between the Free and Pro versions of Startup
+### 1. Github Fork The Project
 
-| Feature             | Free | Pro |
-|---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+### 2. Install Project
 
+```shell  
+# download pnpm
+npm install pnpm
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+# check version
+pnpm -v
 
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
+# download depndencise
+pnpm install
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+```
 
+### 3. Run NextJS  
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+```shell
+# Run Project
+pnpm run dev
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+```
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+### 4. Package Project
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+```shell
+# Package Next Project
+pnpm run build
+    
+```
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+### 5. The Project Use semantic-release
 
-### ⚡ Deploy Now
+1.0.0 => major.minor.patch
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+支援以下提交類型
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+| 提交類型 | 描述 | 版本更新 |
+|---------|------|---------|
+| feat    | 新功能 | minor   |
+| fix     | 修復錯誤 | patch  |
+| docs    | 文檔更新 | patch  |
+| refactor| 代碼重構 | patch  |
+| perf    | 性能優化 | patch  |
+| test    | 添加或修改測試 | patch |
+| build   | 影響構建系統或外部依賴的更改 | patch |
+| ci      | CI配置或腳本更改 | patch |
+| chore   | 其他不修改src或測試文件的更改 | patch |
+| style   | 不影響代碼含義的更改(空格、格式等) | patch |
+| revert  | 撤銷之前的提交 | patch |
+| feat!   | 包含破壞性變更的新功能 | major |
+| fix!    | 包含破壞性變更的錯誤修復 | major |
+| 任何類型 + BREAKING CHANGE: | 在提交訊息頁腳中標記的破壞性變更 | major |  
 
+#### 提交訊息格式範例
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+```txt
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+feat: xxx
 
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+fix: xxx
 
-### Update Log
+docs: xxx
 
-**10 April 2025**
-- Fix peer deps issue with Next.js 15
-- Upgrade to tailwind v4
-- Refactored blog cards for handling edge cases(text ellipsis on bio, keeping author details at the bottom etc.)
-- Re-wrote blog details page with icons separation, fallback author image and better markup.
-- Fixed duplicate key errors on homepage.
-- Separated icons on theme-switcher button, and refactored scroll-to-top button.
+```
 
-**29 Jan 2025**
-- Upgraded to Next.js 15
+#### 破壞性變更範例
+
+```txt
+feat!: 新增不向後兼容的API
+
+BREAKING CHANGE: 舊版API將不再支援
+
+```
