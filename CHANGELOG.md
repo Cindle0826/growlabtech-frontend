@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.1.0...v1.1.1) (2025-07-09)
+
+
+### Bug Fixes
+
+* empty commit for testing ([247b883](https://github.com/Cindle0826/growlabtech-frontend/commit/247b883fd5b0e66c13e6619332ee6d14d3c97969))
+
 # [1.1.0](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.0.1...v1.1.0) (2025-07-09)
 
 
