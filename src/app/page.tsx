@@ -7,6 +7,7 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import SigninForm from "@/components/signin";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
@@ -21,7 +22,8 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
+      <SigninForm/>
+      {/* <Hero />
       <Features />
       <Video />
       <Brands />
@@ -30,7 +32,7 @@ export default function Home() {
       <Testimonials />
       <Pricing />
       <Blog />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }
