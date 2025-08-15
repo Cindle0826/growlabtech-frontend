@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.1.2...v1.2.0) (2025-08-15)
+
+
+### Bug Fixes
+
+* delete space ([2bc0dd8](https://github.com/Cindle0826/growlabtech-frontend/commit/2bc0dd844b8c2d68fed509c156b4b883e7ec8af2))
+* empty commit test for rebase ([77ee890](https://github.com/Cindle0826/growlabtech-frontend/commit/77ee89030ab7d45bf47a2438392352808d11aeb6))
+
+
+### Features
+
+* Implement calendar functionality with event management ([eadf4bf](https://github.com/Cindle0826/growlabtech-frontend/commit/eadf4bfab84e840b0931301adabece4d1bf0c34a))
+
 ## [1.1.2](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.1.1...v1.1.2) (2025-07-09)
 
 
