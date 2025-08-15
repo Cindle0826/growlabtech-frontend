@@ -3,8 +3,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
+import Alert from '@/components/Alert/Alert'
 import { Inter } from "next/font/google";
+import { AuthProvider } from '@/components/Auth/AuthProvider'
 import "../styles/index.css";
+import '@/styles/fullcalendar-dark.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,10 +26,13 @@ export default function RootLayout({
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
+          <AuthProvider>
+            <Header />
+            {children}
+            <Footer />
+            <ScrollToTop />
+            <Alert />
+          </AuthProvider>
         </Providers>
       </body>
     </html>
@@ -34,4 +40,3 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
-

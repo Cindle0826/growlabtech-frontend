@@ -214,7 +214,7 @@ const Footer = () => {
 
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
+            {/* <p className="text-center text-base text-body-color dark:text-white">
               Template by{" "}
               <a
                 href="http://uideck.com"
@@ -233,6 +233,9 @@ const Footer = () => {
               >
                 Next.js Templates
               </a>
+            </p> */}
+            <p className="text-center text-base text-body-color dark:text-white">
+              {new Date().getFullYear()} <a href="https://github.com/Cindle0826/growlabtech-frontend" className="hover:underline">grow-lab-tech</a>. All rights reserved.
             </p>
           </div>
         </div>
