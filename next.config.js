@@ -16,6 +16,8 @@ if (fs.existsSync(envPath)) {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  distDir: 'out',
+  trailingSlash: true,
   images: {
     remotePatterns: [
       {
