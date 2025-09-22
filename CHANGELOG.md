@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.2.0...v1.3.0) (2025-09-22)
+
+
+### Features
+
+* add prod env and setting page title ([eb131d1](https://github.com/Cindle0826/growlabtech-frontend/commit/eb131d1bf237fe421587ad069c92af302a9d6d9c))
+
 # [1.2.0](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.1.2...v1.2.0) (2025-08-15)
 
 
