@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.3.0...v1.3.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* delete pnpm-workspace.yaml ([89821d2](https://github.com/Cindle0826/growlabtech-frontend/commit/89821d21c9c739216e23ba50c5fc0f18a81ec274))
+* next.config.js ([6a766b1](https://github.com/Cindle0826/growlabtech-frontend/commit/6a766b149cf3cad20cab0d35b276fd57ace2d271))
+
 # [1.3.0](https://github.com/Cindle0826/growlabtech-frontend/compare/v1.2.0...v1.3.0) (2025-09-22)
 
 
